@@ -1,1 +1,56 @@
+Q-1-MySQL Table (Table should have some column like created_at or updated_at so that can be used for incremental read)
+A-1-
+
+
+Q-2-Write a python script which is running in infinite loop and inserting 4-5 dummy/dynamically prepared records in MySQL Table.
+A-2-
+
+
+Q-3-Setup Confluent Kafka.
+A-3-
+
+
+Q-4-Create Topic
+A-4-
+
+
+Q-5-Create json schema on schema registry (depends on what kind of data you are publishing in mysql table)
+A-5-
+
+
+Q-6-Write a producer code which will read the data from MySQL table incrementally (hint : use and maintain create_at column)
+A-6-
+
+
+Q-7-Producer will publish data in Kafka Topic
+A-7-
+
+
+Q-8-Write consumer group to consume data from Kafka topic
+A-8-
+
+
+Q-9-In Kafka consumer code do some changes or transformation for each record and write it in Cassandra table
+A-9-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
